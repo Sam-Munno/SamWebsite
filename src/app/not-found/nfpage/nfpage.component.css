@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('/assets/images/slovenia.JPG');
+
+  /* Full height */
+  height: 100vh;
+  min-height: 350px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#textDiv {
+  padding-top: 5rem;
+}
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 1000;
+}

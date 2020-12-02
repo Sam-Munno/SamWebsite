@@ -1,0 +1,31 @@
+
+<div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" routerLink="/home">Sam Munno</a>
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" (click)="toggleNavbar()" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="toggleNavbar()" routerLink="/personalLife">Personal Life</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="toggleNavbar()" routerLink="/professionalLife">Professional Life</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="toggleNavbar()" routerLink="/contactMe">Contact Me</a>
+        </li>
+      </ul>
+  
+    </div>
+  </nav>
+
+
+<div class="ui segment">
+    <router-outlet></router-outlet>
+</div>
+</div>
