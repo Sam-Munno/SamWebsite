@@ -1,5 +1,5 @@
 
-<ngb-carousel *ngIf="slides">
+<ngb-carousel [interval]="false" *ngIf="slides">
 
   <ng-template ngbSlide *ngFor="let slide of slides">
     <div class="bg" [ngStyle]="{'background-image': slide.src}">
