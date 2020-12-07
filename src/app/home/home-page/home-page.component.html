@@ -1,15 +1,13 @@
-<body class="text-center">
-  <div class="bg">
-    <div id="textDiv">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <main role="main" class="inner cover">
-      <h1 class="cover-heading">Hello World. My name is Sam Munno</h1>
+
+<ngb-carousel *ngIf="slides">
+
+  <ng-template ngbSlide *ngFor="let slide of slides">
+    <div class="bg" [ngStyle]="{'background-image': slide.src}">
+      <div id="textDiv">
+        <h1>{{slide.title}}</h1>
+        <p>{{slide.subTitle}}</p>
+      </div>
       
-      <p class="lead">I'm a Software Developer with 3+ years of professional experience.  Enjoy, my website is a SPA written in Angular deployed an Amazon S3 & Route 53. Check out the code in my <a href="https://github.com/Sam-Munno">Github</a></p>
-      
-      
-    </main>
   </div>
-  </div>
-</div>
-</body>
+  </ng-template>
+
