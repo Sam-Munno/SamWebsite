@@ -18,7 +18,7 @@ export class HomePageComponent implements OnInit {
     {
       src: "url('/assets/images/Arches1.JPG')",
       title: "My name is Sam Munno",
-      subTitle: "Software Developer with 3+ years of experience"
+      subTitle: "Software Developer with 5+ years of experience"
     },
     {
       src: "url('/assets/images/costaRicaSunset.JPG')",
