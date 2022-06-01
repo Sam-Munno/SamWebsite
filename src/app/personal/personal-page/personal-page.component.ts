@@ -13,21 +13,21 @@ export class PersonalPageComponent implements OnInit {
 		textSpacing:"",
 		photoSpacing:"",
 		title:"Hiking",
-		subTitle:"I love exploring with friends. The ability to be in untouched protected nature is something I value deeply. Most recent trip: Yosemite and Sequoia national parks. Hiker Pro Tip: Drop a GPS pin on your phone at the trailhead"
+		subTitle:"I love exploring with friends. The ability to be in untouched, protected nature is something I value deeply. Most recent trip: Yosemite and Sequoia national parks. Hiker Pro Tip: Drop a GPS pin on your phone at the trailhead"
 		},
 		{
 		src: "/assets/images/Skiing.png",
 		textSpacing:"order-md-2",
 		photoSpacing:"order-md-1",
 		title:"Skiing",
-		subTitle:"I recently picked up skiing as an adult. This past winter I was able to go to Colorado to Ski in the mountains. Amazing!"
+		subTitle:"I recently picked up skiing as an adult. This past winter I was able to go to Colorado to ski in the mountains. Amazing!"
 		},
 		{
 		src: "/assets/images/JiuJitsu.JPG",
 		textSpacing:"",
 		photoSpacing:"",
 		title:"Brazilian Jiu Jitsu",
-		subTitle:"I started learning Jiu Jitsu in 2018 searching for a new hobby. I immediately fell in love with the problem solving and skill involved.  The concept of technique over power is captivating"
+		subTitle:"I started learning Jiu Jitsu in 2018 searching for a new hobby. It's a fun mix of brain, technique, and power."
 		},
 		{
 		src: "/assets/images/yoga.JPG",

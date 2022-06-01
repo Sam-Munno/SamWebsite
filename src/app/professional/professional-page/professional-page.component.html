@@ -5,69 +5,18 @@
       <h2>Professional Life</h2>
       </div>
      <hr class="featurette-divider">
-     <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Cloud: AWS</h2>
-            <p class="lead">
-              <li>AWS Certified: Associate Developer</li>
-              <li>Experience with Containered and Serverless archetecture</li>
-              <li>Live Health Monitoring</li>
-              <li>Real time eventing SMS & SQS</li>
-            </p>
-          </div>
-          <div class="col-md-5 order-md-2">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><image href="/assets/images/AWS.png" height="100%" width="100%"/></svg>
-          </div>
-          </div>
-           <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Java: Spring</h2>
-            <p class="lead">
-              <li>5+ years professional experience developing Spring & SpringBoot applications</li>
-              <li>Multi million dollar annual operational cost savings</li>
-              <li>Creation of API's with SQL & NOSQL Databases</li>
-              <li>Real time eventing with JMS</li>
-              <li>Unit and Integration testing</li>
-              <li>Maven and Docker build files</li>
-            </p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><image href="/assets/images/java.JPG" height="100%" width="100%"/></svg>
-          </div>
-          </div>
-          <hr class="featurette-divider">
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Web Dev: Angular</h2>
-              <p class="lead">
-                <li>3+ years professional experience developing responsive websites</li>
-                <li>REST API integration with OAuth2.0 protocol</li>
-                <li>Created an airspace waypoint tracking dashboard identifying saturation of inbound aircraft routes</li>
-                
-              </p>
 
-            </div>
-            <div class="col-md-5 order-md-1">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><image href="/assets/images/web.JPG" height="100%" width="100%"/></svg>
-            </div>
-            </div>
-            <hr class="featurette-divider">
-          <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-              
+       <div class="row featurette" *ngFor="let row of json" >
+          <div class="col-md-7 {{row.textSpacing}}">
+            <h2 class="featurette-heading">{{row.title}}</h2>
+            <p class="lead" *ngFor="let bullet of row.subTitle">
+                <li>{{bullet}}</li>
+            </p>
 
-              <h2 class="featurette-heading">Swift: IOS</h2>
-              <p class="lead">
-                <li>2+ years professional experience developing IOS apps for Iphone & Ipad</li>
-                <li>REST API integration with OAuth2.0 protocol</li>
-                <li>Created a Chat app employees could use to solve live operational issues</li>
-                <li>Integrated 3rd party SDK to allow users to initiate a barcode scan from their Cognix pistol grip scanner</li>
-              </p>
-            </div>
-            <div class="col-md-5">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><image href="/assets/images/IOS2.jpeg" height="100%" width="100%"/></svg>
-            </div>
-            </div>
+          </div>
+          <div class="col-md-5 {{row.photoSpacing}}">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"  ><image attr.href={{row.src}} height="100%" width="100%"/></svg>
+          </div>
+          </div>     
      </div>
     </body>
