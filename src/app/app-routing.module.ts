@@ -11,6 +11,9 @@ const routes: Routes = [
   {
     path: 'personalLife', loadChildren: () => import('./personal/personal.module').then((m) => m.PersonalModule) 
   },
+   {
+    path: 'sabbatical', loadChildren: () => import('./sabbatical/sabbatical.module').then((m) => m.SabbaticalModule) 
+  },
   {
     path: 'professionalLife', loadChildren: () => import('./professional/professional.module').then((m) => m.ProfessionalModule) 
   },

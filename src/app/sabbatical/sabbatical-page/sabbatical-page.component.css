@@ -1,0 +1,17 @@
+/* Center header content vertically and horizontally */
+header {
+  background-color: #143254;
+  color: white;
+  text-align: center;
+}
+
+/* Optional — Add space between header and album cards */
+.album-wrapper {
+  margin-top: 2rem; /* increase for more spacing */
+}
+
+/* Card styling from Bootstrap’s album example */
+.card-img-top {
+  height: 225px;
+  object-fit: cover;
+}
