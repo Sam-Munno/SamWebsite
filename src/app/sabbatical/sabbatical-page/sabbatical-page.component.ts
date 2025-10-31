@@ -7,109 +7,78 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SabbaticalPageComponent implements OnInit {
 
-	json = [
-		{
-		src: "/assets/images/hiking.JPG",
-		textSpacing:"",
-		photoSpacing:"",
-		title:"Hiking",
-		subTitle:"I love exploring with friends. The ability to be in untouched, protected nature is something I value deeply. Most recent trip: Yosemite and Sequoia national parks. Hiker Pro Tip: Drop a GPS pin on your phone at the trailhead"
-		},
-		{
-		src: "/assets/images/Skiing.png",
-		textSpacing:"order-md-2",
-		photoSpacing:"order-md-1",
-		title:"Skiing",
-		subTitle:"I recently picked up skiing as an adult. This past winter I was able to go to Colorado to ski in the mountains. Amazing!"
-		},
-		{
-		src: "/assets/images/JiuJitsu.JPG",
-		textSpacing:"",
-		photoSpacing:"",
-		title:"Brazilian Jiu Jitsu",
-		subTitle:"I started learning Jiu Jitsu in 2018 searching for a new hobby. It's a fun mix of brain, technique, and power."
-		},
-		{
-		src: "/assets/images/yoga.JPG",
-		textSpacing:"order-md-2",
-		photoSpacing:"order-md-1",
-		title:"Yoga",
-		subTitle:"I started practicing Hatha yoga in 2019 looking to improve my strength and flexibility. I find Yoga equally as rewarding to the mind as well as body.  To fellow software developers, this will help with the back pain. 😊"
-		}
-	]
-
 	cards = [
     { 
 		img: '/assets/images/northwest.jpg',
 		title: 'Northwest USA', 
-		text: 'Starting in August 2024 we set out with Stanley, our beloved 2008 Grand Marquis, to explore the Rocky Mountains.  We headed west, like our "insert funny quip". Our main attractions were Glacier, Yellowstone, and Grand Tetons National Parks', 
+		text: 'August 2024: Stanley (2008 Grand Marquis) and us hit the Rockies. Westbound, slightly lost, and fully caffeinated—Glacier, Yellowstone, and the Grand Tetons didn’t stand a chance.  Just remember to zip up the tent', 
 		time: '1.5 Months' 
 	},
     { 
 		img: '/assets/images/turkey.jpg',
 		title: 'Turkey',
-		text: 'We landed in Istanbul bleary eyed and ready for an adventure.  We made a clockwise loop stopping in ... ', 
+		text: 'Bleary-eyed and ready for adventure, we touched down in Istanbul and were immediately hooked—Chia, fresh pastries, the turquoise coast of the Turkish Riviera, and the timeless ruins of Ephesus and Troy.', 
 		time: '1 Month' 
 	},
 	{ 
 		img: '/assets/images/southwest.jpg',
 		title: 'Southwest USA', 
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		text: 'As the days got shorter and the air turned crisp, we tried our hand at camping in the Southwest—highlighted by a three-night backpacking adventure in the Grand Canyon.', 
 		time: '1 Month' 
 	},
     { 
 		img: '/assets/images/thailand.jpg',
 		title: 'Thailand',
-		text: 'In short my favorite country.  The people are kind, the countrys nature is astounding, the food is great.  Whats not to love about Thailand', 
+		text: 'In short: my favorite country. If I ever disappear, start your search here. The people are endlessly kind, with smiles that never seem to leave their faces. The nature is jaw-dropping—from the northern mountains to the southern seas—and the food? Next-level. Honestly, what’s not to love?', 
 		time: '1.5 Months' 
 	},
 	{ 
 		img: '/assets/images/laos.jpg',
 		title: 'Laos', 
-		text: 'Laos is a ...', 
+		text: 'Laos feels like the quieter, slower heartbeat of Southeast Asia. From misty mornings over the Mekong River to sleepy towns where the livestock are your alarm clock, it’s a place to slow down, and remember that travel doesn’t always need to be loud to be unforgettable.', 
 		time: '2 Weeks' 
 	},
     { 
 		img: '/assets/images/vietnam.jpg',
 		title: 'Vietnam',
-		text: 'food, unapologetically themselves, ', 
+		text: 'From the limestone cliffs of Ninh Binh to the buzzing scooters of Ho Chi Minh City, Vietnam feels alive in every corner. Eat, wander, and repeat you wont be dissapointed.', 
 		time: '1 Month' 
 	},
 	{ 
 		img: '/assets/images/cambodia.jpg',
 		title: 'Cambodia', 
-		text: 'Angkor Watt, the community, food, Tuk Tuks ', 
+		text: 'Cambodia is more than Angkor Wat, though that alone is worth the trip. It’s quiet villages, friendly smiles, and a sense of history that lingers in every corner of the country.', 
 		time: '2 Weeks' 
 	},
     { 
 		img: '/assets/images/nz.jpg',
 		title: 'New Zealand',
-		text: 'Rented a campervan in the south island for 4 weeks, doing a loop from Christchurch clockwise around the island.', 
+		text: 'New Zealand’s South Island through the windows of Hamish the van: epic peaks, quiet beaches, and the perfect excuse to go slow. No schedule, no stress, just mountains, music, and kilometers of open road.', 
 		time: '1 Month' 
 	},
 	{ 
 		img: '/assets/images/indo.jpg',
 		title: 'Indonesia', 
-		text: 'Surfing, Yoga, and Dengue Fever, oh boy', 
+		text: 'Indonesia, the playground for your soul.  Surfing mornings, yoga afternoons, and evenings where the sunsets feel like they were painted just for you. Oh ya, and don\'t forget Dengue Fever', 
 		time: '1 Month' 
 	},
     { 
 		img: '/assets/images/japan.jpg',
 		title: 'Japan',
-		text: 'Best food in the world', 
+		text: 'Conveyor belt sushi, steaming bowls of ramen, and fans cheering at a Nippon League game—Japan dazzles. But what sticks is how respect is everywhere: from how food is served to how strangers treat each other.', 
 		time: '2 Weeks' 
 	},
 	{ 
 		img: '/assets/images/pct.jpg',
 		title: 'Pacific Coast',
-		text: 'The PCT trail, except we have Stanley', 
+		text: 'We took Stanley north from LA, with backpacks and a tent, chasing good views and quiet campsites. Remy and I loved the scenery, hated the mosquitoes, and somehow laughed through it all.', 
 		time: '2.5 Months' 
 	},
 	{
 	
 		img: '/assets/images/italy.jpg',
 		title: 'Italy',
-		text: 'Extra Innings: bonus trip to Italy.', 
+		text: 'Extra Innings - Italy in a month: laughter, pasta, and two families’ worth of chaos. Walking through my ancestral village with my parents in Calabria was the kind of moment you carry forever.', 
 		time: '1 Months' 
 	}
     
