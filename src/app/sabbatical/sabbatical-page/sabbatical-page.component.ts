@@ -40,71 +40,78 @@ export class SabbaticalPageComponent implements OnInit {
 
 	cards = [
     { 
-		img: 'https://via.placeholder.com/600x400', 
+		img: '/assets/images/northwest.jpg',
 		title: 'Northwest USA', 
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'Starting in August 2024 we set out with Stanley, our beloved 2008 Grand Marquis, to explore the Rocky Mountains.  We headed west, like our "insert funny quip". Our main attractions were Glacier, Yellowstone, and Grand Tetons National Parks', 
+		time: '1.5 Months' 
 	},
     { 
-		img: 'https://via.placeholder.com/600x400',
+		img: '/assets/images/turkey.jpg',
 		title: 'Turkey',
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'We landed in Istanbul bleary eyed and ready for an adventure.  We made a clockwise loop stopping in ... ', 
+		time: '1 Month' 
 	},
 	{ 
-		img: 'https://via.placeholder.com/600x400', 
+		img: '/assets/images/southwest.jpg',
 		title: 'Southwest USA', 
 		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		time: '1 Month' 
 	},
     { 
-		img: 'https://via.placeholder.com/600x400',
+		img: '/assets/images/thailand.jpg',
 		title: 'Thailand',
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'In short my favorite country.  The people are kind, the countrys nature is astounding, the food is great.  Whats not to love about Thailand', 
+		time: '1.5 Months' 
 	},
 	{ 
-		img: 'https://via.placeholder.com/600x400', 
+		img: '/assets/images/laos.jpg',
 		title: 'Laos', 
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'Laos is a ...', 
+		time: '2 Weeks' 
 	},
     { 
-		img: 'https://via.placeholder.com/600x400',
+		img: '/assets/images/vietnam.jpg',
 		title: 'Vietnam',
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'food, unapologetically themselves, ', 
+		time: '1 Month' 
 	},
 	{ 
-		img: 'https://via.placeholder.com/600x400', 
+		img: '/assets/images/cambodia.jpg',
 		title: 'Cambodia', 
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'Angkor Watt, the community, food, Tuk Tuks ', 
+		time: '2 Weeks' 
 	},
     { 
-		img: 'https://via.placeholder.com/600x400',
+		img: '/assets/images/nz.jpg',
 		title: 'New Zealand',
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'Rented a campervan in the south island for 4 weeks, doing a loop from Christchurch clockwise around the island.', 
+		time: '1 Month' 
 	},
 	{ 
-		img: 'https://via.placeholder.com/600x400', 
+		img: '/assets/images/indo.jpg',
 		title: 'Indonesia', 
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'Surfing, Yoga, and Dengue Fever, oh boy', 
+		time: '1 Month' 
 	},
     { 
-		img: 'https://via.placeholder.com/600x400',
+		img: '/assets/images/japan.jpg',
 		title: 'Japan',
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+		text: 'Best food in the world', 
+		time: '2 Weeks' 
 	},
-	    { 
-		img: 'https://via.placeholder.com/600x400',
-		title: 'Japan',
-		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
-		time: '9 mins' 
+	{ 
+		img: '/assets/images/pct.jpg',
+		title: 'Pacific Coast',
+		text: 'The PCT trail, except we have Stanley', 
+		time: '2.5 Months' 
 	},
+	{
+	
+		img: '/assets/images/italy.jpg',
+		title: 'Italy',
+		text: 'Extra Innings: bonus trip to Italy.', 
+		time: '1 Months' 
+	}
     
   ];
 
