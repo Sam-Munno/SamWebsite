@@ -2,7 +2,7 @@
 
 <a href="https://sammunno.tk/">LINK TO MY SITE</a>
 
-This project was written in Angular. I deployed the code on S3, then exposed my own DNS (https://sammunno.tk) on route 53. I used CloudWatch and Certificate Manager to ensure https requests. 
+This project was written in Angular. I deployed the code on S3, then exposed my own DNS (https://sammunno.com) on route 53. I used CloudWatch and Certificate Manager to ensure https requests. 
 
 ## Development server
 
