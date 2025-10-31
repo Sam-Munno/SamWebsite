@@ -39,9 +39,73 @@ export class SabbaticalPageComponent implements OnInit {
 	]
 
 	cards = [
-    { img: 'https://via.placeholder.com/600x400', title: 'Card title 1', text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', time: '9 mins' },
-    { img: 'https://via.placeholder.com/600x400', title: 'Card title 2', text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', time: '9 mins' },
-    // ... add more card objects ...
+    { 
+		img: 'https://via.placeholder.com/600x400', 
+		title: 'Northwest USA', 
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+    { 
+		img: 'https://via.placeholder.com/600x400',
+		title: 'Turkey',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+	{ 
+		img: 'https://via.placeholder.com/600x400', 
+		title: 'Southwest USA', 
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+    { 
+		img: 'https://via.placeholder.com/600x400',
+		title: 'Thailand',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+	{ 
+		img: 'https://via.placeholder.com/600x400', 
+		title: 'Laos', 
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+    { 
+		img: 'https://via.placeholder.com/600x400',
+		title: 'Vietnam',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+	{ 
+		img: 'https://via.placeholder.com/600x400', 
+		title: 'Cambodia', 
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+    { 
+		img: 'https://via.placeholder.com/600x400',
+		title: 'New Zealand',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+	{ 
+		img: 'https://via.placeholder.com/600x400', 
+		title: 'Indonesia', 
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+    { 
+		img: 'https://via.placeholder.com/600x400',
+		title: 'Japan',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+	    { 
+		img: 'https://via.placeholder.com/600x400',
+		title: 'Japan',
+		text: 'This is a longer card with supporting text below as a natural lead-in to additional content.', 
+		time: '9 mins' 
+	},
+    
   ];
 
   constructor() { }
