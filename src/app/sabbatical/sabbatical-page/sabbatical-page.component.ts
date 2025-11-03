@@ -11,13 +11,13 @@ export class SabbaticalPageComponent implements OnInit {
     { 
 		img: '/assets/images/northwest.jpg',
 		title: 'Northwest USA', 
-		text: 'August 2024: Stanley (2008 Grand Marquis) and us hit the Rockies. Westbound, slightly lost, and fully caffeinated—Glacier, Yellowstone, and the Grand Tetons didn’t stand a chance.  Just remember to zip up the tent', 
+		text: 'August 2024: Stanley (2008 Grand Marquis) and us hit the Rockies. Westbound, fully energized, and eager to see what summer had in store, Glacier, Yellowstone, and the Grand Tetons left us in awe.  Just remember to zip up the tent', 
 		time: '1.5 Months' 
 	},
     { 
 		img: '/assets/images/turkey.jpg',
 		title: 'Turkey',
-		text: 'Bleary-eyed and ready for adventure, we touched down in Istanbul and were immediately hooked—Chia, fresh pastries, the turquoise coast of the Turkish Riviera, and the timeless ruins of Ephesus and Troy.', 
+		text: 'Bleary-eyed and ready for adventure, we touched down in Istanbul and were immediately hooked on Turkish çay, fresh pastries, the turquoise coast of the Turkish Riviera, and the timeless ruins of Ephesus and Troy.', 
 		time: '1 Month' 
 	},
 	{ 
@@ -35,7 +35,7 @@ export class SabbaticalPageComponent implements OnInit {
 	{ 
 		img: '/assets/images/laos.jpg',
 		title: 'Laos', 
-		text: 'Laos feels like the quieter, slower heartbeat of Southeast Asia. From misty mornings over the Mekong River to sleepy towns where the livestock are your alarm clock, it’s a place to slow down, and remember that travel doesn’t always need to be loud to be unforgettable.', 
+		text: 'Laos feels like the quieter, slower heartbeat of Southeast Asia. From misty mornings over the Mekong River to sleepy towns where the livestock are your alarm clock, it’s a place to slow down, and remember that travel has every shape and size.', 
 		time: '2 Weeks' 
 	},
     { 
