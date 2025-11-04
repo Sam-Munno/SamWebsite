@@ -11,17 +11,17 @@ export class HomePageComponent implements OnInit {
   
   slides = [
     {
-      src: "url('/assets/images/Bowmen.JPG')",
+      src: "url('assets/images/Bowmen.JPG')",
       title: "Hello World",
       subTitle: "Welcome to my website 😊"
     },
     {
-      src: "url('/assets/images/Arches1.JPG')",
+      src: "url('assets/images/Arches1.JPG')",
       title: "My name is Sam Munno",
       subTitle: "Software Developer with 7+ years of experience"
     },
     {
-      src: "url('/assets/images/costaRicaSunset.JPG')",
+      src: "url('assets/images/costaRicaSunset.JPG')",
       title: "Tech Stack",
       subTitle: "Written in Angular. Hosted on AWS S3, routing through Route 53, HTTPS support with CloudFront. Code on my Github."
     },
